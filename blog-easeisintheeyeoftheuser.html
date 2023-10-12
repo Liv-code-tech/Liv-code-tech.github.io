@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="w=device-width h-screen" >
+    <title> Ease is in the eye of the user </title>
+        <link rel="stylesheet" href="codingsite.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+</head>
+
+<!--background-->
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <div class="w-full h-full bg-cover bg-slate-50 md:bg-center">
+    <img class="w-screen h-64 object-cover object-bottom flex-wrap shadow-xl" src="https://i.postimg.cc/nVKNzZpR/usinglaptop.jpg"></img>
+    <section class="header">
+          
+        <nav class="top-3 flex justify-between container">
+        
+            <a href="oliviascodingwebsite.html"><img class="w-32" src="https://i.postimg.cc/44L81Jtg/whitebglogo.png"></a>
+             <div class="nav-links hidden  md:flex" id="navLinks">
+                    <ul class="text-xl bg-slate-700/90 h-screen right-0 w-1/2 fixed md:flex md:min-w-fit md:h-min md:absolute md:opacity-100 md:bg-transparent md:my-5 md:hover:bg-none ">
+                        <i class="fas fa-window-close fa-x cursor-pointer m-7 top-2 pb-4 pr-14 text-neutral-200 md:hidden" onclick="hideMenu()"></i> 
+                        <li><a class="text-2xl text-amber-600 font-semibold border-slate-500 m-5 p-1 border-r-0 md:hover:border-y-[4px] md:inset-x-0 md:ml-[470px]" href="blog.html">BLOG HOME</a></li>
+                    </ul>
+              </div>      
+            <i class="nav-links fas fa-bars fa-2x cursor-pointer pr-3 pt-3 text-amber-600 md:hidden" id="navlinksShow" onclick="showMenu()"></i>
+             
+            
+        </nav>
+    </section>
+    
+
+<!------ Blog: Ease is in the Eye of the User ------>
+
+    <section class="w-full  justify-center text-center">
+        
+        <h1 class="text-4xl text-opacity-80 font-serif font-semibold text-neutral-700 mb-4 mx-3 pt-14 md:pt-28">Ease is in the Eye of the User</h1>
+        <p class="whitespace-pre-line columns-md gap-8 font-mono text-neutral-800 text-left mx-4 pt-2 pb-4 md:align-top">Although I love the aesthetic side of web design, one of my biggest motivators is a desire to make websites extremely simple to use. Most of us get frustrated when we have to use over-complicated websites or processes to carry out essential tasks. In fact, it can really impact our moods, long after the task at hand is complete. But what is “over-complicated”?
+
+            My perspective changed when I spoke to my 75-year-old neighbour. She had never had to use computers in her job and had been retired for around 10 years. Being unmarried without children and the last surviving member of her family, she relied heavily on her great friendship circle for assistance and companionship. Sadly however, some of her friends had passed away and some were having age-related health issues of their own. So when my neighbour’s health also got worse a few years ago, the world became a much more isolating place. 
+            
+            She is still outgoing and spends time with friends, so it’s not all doom and gloom! She prefers to leave the house to run errands, but with the worsening of her arthritis, she is conscious of the upcoming winter frost and the implications that a bad fall could have on her health. So she decided to learn to buy her groceries online.
+            
+            We are currently in the phase of our history where each generation is more tech savvy than the last. There are also huge variations within older age groups. My neighbour may not have needed to use a computer for her job but there are plenty her age who did. For her though, learning to utilise the internet was completely abstract.
+            
+            My mother and I went to the neighbour’s house to give her an online shopping lesson and it completely changed my perspective on user-friendliness. She could not change the volume on the laptop a friend had gifted her. She stressed about every step of the process- although she did record them meticulously in her notebook- and doubted her ability to memorise the steps it took to execute her task.
+            
+            I had no idea how much I took for granted. How many subconscious steps my brain took, which presented on the surface as an ‘instinct’ for how to use websites. Every time we don’t know where to search for a particular piece of information, most of us head to the navigation bar of a website and we usually find what we are looking for very easily. For my neighbour though, whilst she did know to go to the top of the webpage if in doubt, it was still very much a conscious process. Knowing what headings to look for within a more complex navigation bar would still have been an issue.
+            
+            Now, whilst I am not suggesting that people and companies target their websites towards those who will rarely go online unless they have to, I do think there is potential room for improvement. The harsh truth is that whilst significant levels of technical illiteracy continue to exist, the phenomenon will be virtually extinct in the next 2 to 3 decades. What then, do we do about people who are struggling now? Moreover, how do we take these lessons forward and ensure that we continue to utilise peoples’ subconscious navigation pathways?
+            
+            The answer will vary dramatically. Whilst tech companies like Apple and Samsung would likely be wasting their time by catering to an unwilling audience if they made things clean and simple, I think that supermarkets and utility providers should be doing more to make things as clear as they possibly can for the novice user.
+            
+            Services which cater to universal needs require accessibility- even if they have one site for those who are used to tech and another which is labelled with the most literal labelling possible. I hope that we will continue to refine the art of catering to everyones’ needs at once, but in the meantime it is worth noting: what most of us consider to be a normal website format is only quicker for us because we are used to it. 
+            
+            To those who are not, spending days trying to carry out a simple task can ultimately end up being in vain. 
+            </p>
+
+    </section>
+
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function hideMenu(){
+            navLinks.style.display = 'none';
+        }
+        var navlinksShow = document.getElementById("navlinksShow");
+        function showMenu(){
+            navLinks.style.display = 'flex';
+        }
+    </script>
+</body>
+
+</html>

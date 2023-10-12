@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="w=device-width h-screen" >
+    <title> Olivia Batchelor's Portfolio </title>
+        <link rel="stylesheet" href="codingsite.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+</head>
+
+<!--background-->
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <div class="w-full h-screen bg-cover bg-blend-multiply bg-slate-500 md:bg-left-top"
+    style="background-image: url(https://i.postimg.cc/4XhT47XQ/thaitree.jpg);">
+    <section class="header">   
+        <nav class="flex justify-between container">
+            <a href="oliviascodingwebsite.html"><img class="w-32" src="https://i.postimg.cc/44L81Jtg/whitebglogo.png"></a>
+             <div class="nav-links hidden md:flex" id="navLinks">
+                    <ul class=" text-xl bg-slate-700/90 h-screen right-0 w-1/2 fixed md:flex md:min-w-fit md:h-min md:absolute md:opacity-100 md:bg-transparent md:my-5 md:hover:bg-none ">
+                        <i class="fas fa-window-close fa-x cursor-pointer m-7 top-2 pb-4 pr-14 text-neutral-200 md:hidden" onclick="hideMenu()"></i> 
+                        <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200  md:hover:border-y-[3px] md:justify-between md:inset-x-0" href="oliviascodingwebsite.html ">HOME</a></li>
+                        <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0 md:inset-y-0" href="about.html">ABOUT</a></li>
+                        <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0" href="blog.html">BLOG</a></li>
+                        <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0" href="projects.html">PROJECTS</a></li>
+                        <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0" href="contact.html">CONTACT</a></li>
+                    </ul>
+              </div>      
+            <i class="nav-links fas fa-bars fa-2x cursor-pointer pr-3 pt-3 text-neutral-200 md:hidden" id="navlinksShow" onclick="showMenu()"></i>
+             
+            
+        </nav>
+    </section>
+    <section>
+        <div class="mt-auto h-[80vh] w-10/12 mx-auto text-center flex flex-col justify-center items-center">
+            <h1 class="text-3xl md:text-4xl text-center pt-28 my-0 text-neutral-300"> I'M OLIVIA BATCHELOR. </h1>
+            <p class="text-lg text-center text-neutral-300 md:text-xl my-2 py-0 md:py-0 border-y-[3px]">
+                Front-End Developer
+            </p>
+            <p class="text-center text-neutral-300 mt-2 md:text-xl py-1 md:py-5">
+                I aim to make life as simple as possible for the user.
+            </p>
+            <button class="cursor-pointer text-center w-70 px-2 py-2 mt-2 mx-auto text-white text-sm border border-indigo-300 rounded-md bg-blue-200/30 hover:bg-blue-200/40 hover:duration-1000">    
+                <a href="#" >Take a look at my vision</a>
+            </button>
+        </div>
+    </section>
+    
+            
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function hideMenu(){
+            navLinks.style.display = 'none';
+        }
+        
+        
+        var navlinksShow = document.getElementById("navlinksShow");
+        function showMenu(){
+            navLinks.style.display = 'flex';
+        }
+    </script>
+</body>
+
+</html>
