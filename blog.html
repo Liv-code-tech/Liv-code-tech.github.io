@@ -1,77 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
 
-    <meta name="viewport" content="w=device-width h-screen" >
-    <title> Blog Page </title>
-        <link rel="stylesheet" href="codingsite.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="tailwind.config.js"></script>
-    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
-</head>
+        <meta name="viewport" content="w=device-width h-screen" >
+        <title> Blog Page </title>
+            <link rel="stylesheet" href="codingsite.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="tailwind.config.js"></script>
+        <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+    </head>
 
-<!--background-->
-<body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
-    <div class=" bg-cover h-screen bg-center bg-blend-multiply bg-slate-500 md:bg-center"
-    style="background-image: url(https://i.postimg.cc/XqqXchzQ/bikebetter.jpg);">
-        <section class="header">   
-            <nav class="flex justify-between container">
-                <a href="index.html"><img class="w-32" src="https://i.postimg.cc/44L81Jtg/whitebglogo.png"></a>
-                <div class="nav-links hidden md:flex" id="navLinks">
-                        <ul class="text-xl bg-slate-700/90 h-screen right-0 w-1/2 fixed md:flex md:min-w-fit md:h-max md:bg-transparent md:my-5 md:hover:bg-none">
-                            <i class="fas fa-window-close fa-x cursor-pointer m-7 top-2 pb-4 pr-14 text-neutral-200 md:hidden" onclick="hideMenu()"></i> 
-                            <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200  md:hover:border-y-[3px] md:justify-between md:inset-x-0" href="index.html">HOME</a></li>
-                            <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0 md:inset-y-0" href="about.html">ABOUT</a></li>
-                            <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0" href="blog.html">BLOG</a></li>
-                            <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0" href="projects.html">PROJECTS</a></li>
-                            <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0" href="contact.html">CONTACT</a></li>
-                        </ul>
-                </div>      
-                <i class="nav-links fas fa-bars fa-2x cursor-pointer pr-3 pt-3 text-neutral-200  md:hidden" id="navlinksShow" onclick="showMenu()"></i>
+    <body>
+        <!--Background-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+        <div class=" bg-cover h-screen bg-center bg-blend-multiply bg-slate-500 md:bg-top"
+        style="background-image: url(https://i.postimg.cc/XqqXchzQ/bikebetter.jpg);">
+            <section class="header">   
+                <nav class="flex justify-between container">
+                    <a href="index.html"><img class="w-32" src="https://i.postimg.cc/44L81Jtg/whitebglogo.png"></a>
+                    <div class="nav-links hidden md:flex" id="navLinks">
+                            <ul class="text-xl bg-slate-700/90 h-screen right-0 w-1/2 fixed md:flex md:min-w-fit md:h-max md:bg-transparent md:my-5 md:hover:bg-none">
+                                <i class="fas fa-window-close fa-x cursor-pointer m-7 top-2 pb-4 pr-14 text-neutral-200 md:hidden" onclick="hideMenu()"></i> 
+                                <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200  md:hover:border-y-[3px] md:justify-between md:inset-x-0" href="index.html">HOME</a></li>
+                                <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0 md:inset-y-0" href="about.html">ABOUT</a></li>
+                                <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0" href="blog.html">BLOG</a></li>
+                                <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0" href="projects.html">PROJECTS</a></li>
+                                <li><a class="text-indigo-200 border-neutral-300 m-5 p-1 border-r-0 md:text-indigo-200 md:hover:border-y-[3px] md:inset-x-0" href="contact.html">CONTACT</a></li>
+                            </ul>
+                    </div>      
+                    <i class="nav-links fas fa-bars fa-2x cursor-pointer pr-3 pt-3 text-neutral-200  md:hidden" id="navlinksShow" onclick="showMenu()"></i>
+                    
+                </nav>
+            </section>
+        
+            <!--Blog-->
+            <section class="w-full text-center px-4 pt-10  text-white ">
+                <h1 class="mt-20 mb-4 text-3xl scroll-px-4 justify-center md:pt-10">BLOG</h1>
+                <p class="text-lg pt-2 pb-10">I have written this blog page with the hope that it provides insight into the meaning behind <br> my projects and the journey to creating them. </p>
+
+                <div class="mx-auto w-full flex justify-center gap-5">
+                    <a class="bg-slate-700/90 hover:bg-blue-200/20 hover:duration-500 w-64 shadow-2xl text-md text-white font-semibold rounded-md  hover:cursor-pointer " href="blog-easeisintheeyeoftheuser.html">
+                        <img class=" rounded-t-lg shadow-lg w-64 " src="https://i.postimg.cc/nVKNzZpR/usinglaptop.jpg"></img>
+                        <p class="object-contain m-2"> EASE IS IN THE EYE OF THE USER </p>
+                    </a>
+                    
+                    <div class=" bg-slate-700/90 hover:bg-blue-200/20 hover:duration-500 w-64 shadow-2xl text-md text-white font-semibold rounded-lg hover:cursor-pointer " href="#">
+                        <img class=" rounded-t-lg shadow-lg w-64 " src="https://i.postimg.cc/9XxjWCWd/hatchingegg.jpg"></img>
+                        <p class="object-contain m-2"> THE ORIGINS OF THE HUMBLE EGG </p>
+                    </div>
+                </div>    
+            </section>    
                 
-            </nav>
-        </section>
-    
-        <!------Blog------>
 
-        <section class="w-full text-center px-4 pt-10  text-white ">
-            <h1 class="mt-20 mb-4 text-3xl scroll-px-4 justify-center md:pt-10">BLOG</h1>
-            <p class="text-lg pt-2 pb-10">I have written this blog page with the hope that it provides insight into the meaning behind <br> my projects and the journey to creating them. </p>
 
-            <div class="mx-auto w-full flex justify-center gap-5">
-                <a class="bg-slate-700/60 hover:bg-blue-200/20 hover:duration-500 w-64 text-md text-white font-semibold rounded-md pt-4 px-4 pb-2 hover:cursor-pointer " href="blog-easeisintheeyeoftheuser.html">
-                    <img class=" rounded-lg shadow-lg w-56 " src="https://i.postimg.cc/nVKNzZpR/usinglaptop.jpg"></img>
-                    <p class="object-contain"> EASE IS IN THE EYE OF THE USER </p>
-                </a>
+            <!--JavaScript for Toggle Menu-->
+            <script>
+                var navLinks = document.getElementById("navLinks");
                 
-                <div class=" bg-slate-700/60 hover:bg-blue-200/20 hover:duration-500 w-64 text-md text-white font-semibold rounded-lg pt-4 px-4 pb-2 hover:cursor-pointer " href="#">
-                    <img class=" rounded-lg shadow-lg w-56 " src="https://i.postimg.cc/9XxjWCWd/hatchingegg.jpg"></img>
-                    <p class="object-contain"> THE ORIGINS OF THE HUMBLE EGG </p>
-                </div>
-            </div>    
-        </section>    
-            
-
-
-
-        <!--JavaScript for Toggle Menu-->
-        <script>
-            var navLinks = document.getElementById("navLinks");
-            
-            function hideMenu(){
-                navLinks.style.display = 'none';
-            }
-            var navlinksShow = document.getElementById("navlinksShow");
-            function showMenu(){
-                navLinks.style.display = 'flex';
-            }
-        </script>
-</body>
+                function hideMenu(){
+                    navLinks.style.display = 'none';
+                }
+                var navlinksShow = document.getElementById("navlinksShow");
+                function showMenu(){
+                    navLinks.style.display = 'flex';
+                }
+            </script>
+    </body>
 
 </html>
